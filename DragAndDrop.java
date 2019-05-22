@@ -26,8 +26,6 @@ public class DragAndDrop extends BaseTest{
 		Actions actions = new Actions(driver);
 //		elementA.click();
 		actions.dragAndDrop(elementA, elementB).build().perform();
-//		actions.dragAndDropBy(elementA, x, y).build().perform();
-//		actions.clickAndHold(elementA).moveToElement(elementB).release(elementB).build().perform();
 		Thread.sleep(6000);
 		driver.quit();
 		
